@@ -3,7 +3,7 @@ import streamlit as st
 import urllib
 
 # Read the excel file
-data = pd.read_excel('/workspaces/song-management-portal/songs.xlsx')
+data = pd.read_excel('songs.xlsx')
 
 # Create genre and territory dictionaries
 genres = data['Major Genre'].unique()
