@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import urllib
-import openpyxl
 
 # Read the excel file
 data = pd.read_excel('songs.xlsx')
